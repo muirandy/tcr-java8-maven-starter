@@ -25,6 +25,8 @@ I've filled in the missing bits - the scripts for test, commit and revert. This 
 ### Now:
   * Run Test-Commit-Revert in a terminal:
       * ./test && ./commit || ./revert
+   * Or if you're lazy, just run:
+      * ./tcr
       
   Stand back, watch the code you wrote fail a test, and then get reverted (thrown away)! You're back to where you were, with the tests all passing.
   
